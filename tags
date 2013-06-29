@@ -1,0 +1,302 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COL2ORIGCOL	main.hpp	14;"	d
+HandGesture	handGesture.cpp	/^HandGesture::HandGesture(){$/;"	f	class:HandGesture
+HandGesture	handGesture.cpp	/^HandGesture::HandGesture(){$/;"	f	class:HandGesture	signature:()
+HandGesture	handGesture.hpp	/^		HandGesture();$/;"	p	class:HandGesture	access:public	signature:()
+HandGesture	handGesture.hpp	/^class HandGesture{$/;"	c
+HandGesture::HandGesture	handGesture.cpp	/^HandGesture::HandGesture(){$/;"	f	class:HandGesture	signature:()
+HandGesture::HandGesture	handGesture.hpp	/^		HandGesture();$/;"	p	class:HandGesture	access:public	signature:()
+HandGesture::addFingerNumberToVector	handGesture.cpp	/^void HandGesture::addFingerNumberToVector(){$/;"	f	class:HandGesture	signature:()
+HandGesture::addFingerNumberToVector	handGesture.hpp	/^		void addFingerNumberToVector();$/;"	p	class:HandGesture	access:private	signature:()
+HandGesture::addNumberToImg	handGesture.cpp	/^void HandGesture::addNumberToImg(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::addNumberToImg	handGesture.hpp	/^		void addNumberToImg(MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(MyImage *m)
+HandGesture::analyzeContours	handGesture.cpp	/^void HandGesture::analyzeContours(){$/;"	f	class:HandGesture	signature:()
+HandGesture::analyzeContours	handGesture.hpp	/^		void analyzeContours();$/;"	p	class:HandGesture	access:private	signature:()
+HandGesture::bRect	handGesture.hpp	/^		Rect bRect;$/;"	m	class:HandGesture	access:public
+HandGesture::bRect_height	handGesture.hpp	/^		double bRect_height;$/;"	m	class:HandGesture	access:public
+HandGesture::bRect_width	handGesture.hpp	/^		double bRect_width;$/;"	m	class:HandGesture	access:public
+HandGesture::cIdx	handGesture.hpp	/^		int cIdx;$/;"	m	class:HandGesture	access:public
+HandGesture::changedNumberOfFingers	handGesture.hpp	/^		bool changedNumberOfFingers;$/;"	m	class:HandGesture	access:public
+HandGesture::checkForOneFinger	handGesture.cpp	/^void HandGesture::checkForOneFinger(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::computeFingerNumber	handGesture.cpp	/^void HandGesture::computeFingerNumber(){$/;"	f	class:HandGesture	signature:()
+HandGesture::computeFingerNumber	handGesture.hpp	/^		void computeFingerNumber();$/;"	p	class:HandGesture	access:private	signature:()
+HandGesture::contours	handGesture.hpp	/^		vector<vector<Point> > contours;$/;"	m	class:HandGesture	access:public
+HandGesture::defects	handGesture.hpp	/^		vector<vector<Vec4i> > defects;	$/;"	m	class:HandGesture	access:public
+HandGesture::detectIfHand	handGesture.cpp	/^bool HandGesture::detectIfHand(){$/;"	f	class:HandGesture	signature:()
+HandGesture::detectIfHand	handGesture.hpp	/^		bool detectIfHand();$/;"	p	class:HandGesture	access:public	signature:()
+HandGesture::distanceP2P	handGesture.cpp	/^float HandGesture::distanceP2P(Point a, Point b){$/;"	f	class:HandGesture	signature:(Point a, Point b)
+HandGesture::distanceP2P	handGesture.hpp	/^		float distanceP2P(Point a,Point b);$/;"	p	class:HandGesture	access:private	signature:(Point a,Point b)
+HandGesture::drawFingerTips	handGesture.cpp	/^void HandGesture::drawFingerTips(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::drawNewNumber	handGesture.cpp	/^void HandGesture::drawNewNumber(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::drawNewNumber	handGesture.hpp	/^		void drawNewNumber(MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(MyImage *m)
+HandGesture::eleminateDefects	handGesture.cpp	/^void HandGesture::eleminateDefects(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::eleminateDefects	handGesture.hpp	/^		void eleminateDefects(MyImage *m);$/;"	p	class:HandGesture	access:public	signature:(MyImage *m)
+HandGesture::fingerNumbers	handGesture.hpp	/^		vector<int> fingerNumbers;$/;"	m	class:HandGesture	access:private
+HandGesture::fingerTips	handGesture.hpp	/^		vector <Point> fingerTips;$/;"	m	class:HandGesture	access:public
+HandGesture::frameNumber	handGesture.hpp	/^		int frameNumber;$/;"	m	class:HandGesture	access:public
+HandGesture::getAngle	handGesture.cpp	/^float HandGesture::getAngle(Point s, Point f, Point e){$/;"	f	class:HandGesture	signature:(Point s, Point f, Point e)
+HandGesture::getAngle	handGesture.hpp	/^		float getAngle(Point s,Point f,Point e);	$/;"	p	class:HandGesture	access:private	signature:(Point s,Point f,Point e)
+HandGesture::getFingerNumber	handGesture.cpp	/^void HandGesture::getFingerNumber(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::getFingerNumber	handGesture.hpp	/^		void getFingerNumber(MyImage *m);$/;"	p	class:HandGesture	access:public	signature:(MyImage *m)
+HandGesture::getFingerTips	handGesture.cpp	/^void HandGesture::getFingerTips(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+HandGesture::hullI	handGesture.hpp	/^		vector<vector<int> >hullI;$/;"	m	class:HandGesture	access:public
+HandGesture::hullP	handGesture.hpp	/^		vector<vector<Point> >hullP;$/;"	m	class:HandGesture	access:public
+HandGesture::initVectors	handGesture.cpp	/^void HandGesture::initVectors(){$/;"	f	class:HandGesture	signature:()
+HandGesture::initVectors	handGesture.hpp	/^		void initVectors();$/;"	p	class:HandGesture	access:public	signature:()
+HandGesture::intToString	handGesture.cpp	/^string HandGesture::intToString(int number){$/;"	f	class:HandGesture	signature:(int number)
+HandGesture::intToString	handGesture.hpp	/^		string intToString(int number);$/;"	p	class:HandGesture	access:private	signature:(int number)
+HandGesture::isHand	handGesture.hpp	/^		bool isHand;$/;"	m	class:HandGesture	access:public
+HandGesture::m	handGesture.hpp	/^		MyImage m;$/;"	m	class:HandGesture	access:public
+HandGesture::mostFrequentFingerNumber	handGesture.hpp	/^		int mostFrequentFingerNumber;$/;"	m	class:HandGesture	access:public
+HandGesture::nrNoFinger	handGesture.hpp	/^		int nrNoFinger;$/;"	m	class:HandGesture	access:private
+HandGesture::nrOfDefects	handGesture.hpp	/^		int nrOfDefects;$/;"	m	class:HandGesture	access:public
+HandGesture::numberColor	handGesture.hpp	/^		Scalar numberColor;$/;"	m	class:HandGesture	access:private
+HandGesture::numbers2Display	handGesture.hpp	/^		vector<int> numbers2Display;$/;"	m	class:HandGesture	access:private
+HandGesture::prevNrFingerTips	handGesture.hpp	/^		int prevNrFingerTips;$/;"	m	class:HandGesture	access:public
+HandGesture::printGestureInfo	handGesture.cpp	/^void HandGesture::printGestureInfo(Mat src){$/;"	f	class:HandGesture	signature:(Mat src)
+HandGesture::printGestureInfo	handGesture.hpp	/^		void printGestureInfo(Mat src);$/;"	p	class:HandGesture	access:public	signature:(Mat src)
+HandGesture::rect	handGesture.hpp	/^		Rect rect;$/;"	m	class:HandGesture	access:public
+HandGesture::removeRedundantFingerTips	handGesture.cpp	/^void HandGesture::removeRedundantFingerTips(){$/;"	f	class:HandGesture	signature:()
+HandGesture::removeRedundantFingerTips	handGesture.hpp	/^		void removeRedundantFingerTips();$/;"	p	class:HandGesture	access:private	signature:()
+HandGesture::removeRedundantFingerTips	handGesture.hpp	/^		void removeRedundantFingerTips(vector<Vec4i> newDefects,MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(vector<Vec4i> newDefects,MyImage *m)
+LINE_AA	kalmanslett.cpp	7;"	d	file:
+MyImage	myImage.cpp	/^MyImage::MyImage(){$/;"	f	class:MyImage
+MyImage	myImage.cpp	/^MyImage::MyImage(){$/;"	f	class:MyImage	signature:()
+MyImage	myImage.cpp	/^MyImage::MyImage(int webCamera){$/;"	f	class:MyImage
+MyImage	myImage.cpp	/^MyImage::MyImage(int webCamera){$/;"	f	class:MyImage	signature:(int webCamera)
+MyImage	myImage.hpp	/^		MyImage();$/;"	p	class:MyImage	access:public	signature:()
+MyImage	myImage.hpp	/^		MyImage(int webCamera);$/;"	p	class:MyImage	access:public	signature:(int webCamera)
+MyImage	myImage.hpp	/^class MyImage{$/;"	c
+MyImage::MyImage	myImage.cpp	/^MyImage::MyImage(){$/;"	f	class:MyImage	signature:()
+MyImage::MyImage	myImage.cpp	/^MyImage::MyImage(int webCamera){$/;"	f	class:MyImage	signature:(int webCamera)
+MyImage::MyImage	myImage.hpp	/^		MyImage();$/;"	p	class:MyImage	access:public	signature:()
+MyImage::MyImage	myImage.hpp	/^		MyImage(int webCamera);$/;"	p	class:MyImage	access:public	signature:(int webCamera)
+MyImage::bw	myImage.hpp	/^		Mat bw;$/;"	m	class:MyImage	access:public
+MyImage::bwList	myImage.hpp	/^		vector<Mat> bwList;$/;"	m	class:MyImage	access:public
+MyImage::cameraSrc	myImage.hpp	/^		int cameraSrc; $/;"	m	class:MyImage	access:public
+MyImage::cap	myImage.hpp	/^		VideoCapture cap;		$/;"	m	class:MyImage	access:public
+MyImage::initWebCamera	myImage.hpp	/^		void initWebCamera(int i);$/;"	p	class:MyImage	access:public	signature:(int i)
+MyImage::src	myImage.hpp	/^		Mat src;$/;"	m	class:MyImage	access:public
+MyImage::srcLR	myImage.hpp	/^		Mat srcLR;$/;"	m	class:MyImage	access:public
+My_ROI	roi.cpp	/^My_ROI::My_ROI(){$/;"	f	class:My_ROI
+My_ROI	roi.cpp	/^My_ROI::My_ROI(){$/;"	f	class:My_ROI	signature:()
+My_ROI	roi.cpp	/^My_ROI::My_ROI(Point u_corner, Point l_corner, Mat src){$/;"	f	class:My_ROI
+My_ROI	roi.cpp	/^My_ROI::My_ROI(Point u_corner, Point l_corner, Mat src){$/;"	f	class:My_ROI	signature:(Point u_corner, Point l_corner, Mat src)
+My_ROI	roi.hpp	/^		My_ROI();$/;"	p	class:My_ROI	access:public	signature:()
+My_ROI	roi.hpp	/^		My_ROI(Point upper_corner, Point lower_corner,Mat src);$/;"	p	class:My_ROI	access:public	signature:(Point upper_corner, Point lower_corner,Mat src)
+My_ROI	roi.hpp	/^class My_ROI{$/;"	c
+My_ROI::My_ROI	roi.cpp	/^My_ROI::My_ROI(){$/;"	f	class:My_ROI	signature:()
+My_ROI::My_ROI	roi.cpp	/^My_ROI::My_ROI(Point u_corner, Point l_corner, Mat src){$/;"	f	class:My_ROI	signature:(Point u_corner, Point l_corner, Mat src)
+My_ROI::My_ROI	roi.hpp	/^		My_ROI();$/;"	p	class:My_ROI	access:public	signature:()
+My_ROI::My_ROI	roi.hpp	/^		My_ROI(Point upper_corner, Point lower_corner,Mat src);$/;"	p	class:My_ROI	access:public	signature:(Point upper_corner, Point lower_corner,Mat src)
+My_ROI::border_thickness	roi.hpp	/^		int border_thickness;$/;"	m	class:My_ROI	access:public
+My_ROI::color	roi.hpp	/^		Scalar color;$/;"	m	class:My_ROI	access:public
+My_ROI::draw_rectangle	roi.cpp	/^void My_ROI::draw_rectangle(Mat src){$/;"	f	class:My_ROI	signature:(Mat src)
+My_ROI::draw_rectangle	roi.hpp	/^		void draw_rectangle(Mat src);$/;"	p	class:My_ROI	access:public	signature:(Mat src)
+My_ROI::lower_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI	access:public
+My_ROI::roi_ptr	roi.hpp	/^		Mat roi_ptr;$/;"	m	class:My_ROI	access:public
+My_ROI::upper_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI	access:public
+NSAMPLES	main.hpp	15;"	d
+ORIGCOL2COL	main.hpp	13;"	d
+PI	main.hpp	16;"	d
+ROI	roi.hpp	3;"	d
+_HAND_GESTURE_	handGesture.hpp	2;"	d
+_MAIN_HEADER_	main.hpp	2;"	d
+_MYIMAGE_	myImage.hpp	2;"	d
+addFingerNumberToVector	handGesture.cpp	/^void HandGesture::addFingerNumberToVector(){$/;"	f	class:HandGesture
+addFingerNumberToVector	handGesture.cpp	/^void HandGesture::addFingerNumberToVector(){$/;"	f	class:HandGesture	signature:()
+addFingerNumberToVector	handGesture.hpp	/^		void addFingerNumberToVector();$/;"	p	class:HandGesture	access:private	signature:()
+addNumberToImg	handGesture.cpp	/^void HandGesture::addNumberToImg(MyImage *m){$/;"	f	class:HandGesture
+addNumberToImg	handGesture.cpp	/^void HandGesture::addNumberToImg(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+addNumberToImg	handGesture.hpp	/^		void addNumberToImg(MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(MyImage *m)
+analyzeContours	handGesture.cpp	/^void HandGesture::analyzeContours(){$/;"	f	class:HandGesture
+analyzeContours	handGesture.cpp	/^void HandGesture::analyzeContours(){$/;"	f	class:HandGesture	signature:()
+analyzeContours	handGesture.hpp	/^		void analyzeContours();$/;"	p	class:HandGesture	access:private	signature:()
+average	main.cpp	/^void average(MyImage *m){$/;"	f
+average	main.cpp	/^void average(MyImage *m){$/;"	f	signature:(MyImage *m)
+avgBGR	main.cpp	/^int avgBGR[3];$/;"	v
+avgColor	main.cpp	/^int avgColor[NSAMPLES][3] ;$/;"	v
+bRect	handGesture.hpp	/^		Rect bRect;$/;"	m	class:HandGesture
+bRect	handGesture.hpp	/^		Rect bRect;$/;"	m	class:HandGesture	access:public
+bRect_height	handGesture.hpp	/^		double bRect_height;$/;"	m	class:HandGesture
+bRect_height	handGesture.hpp	/^		double bRect_height;$/;"	m	class:HandGesture	access:public
+bRect_width	handGesture.hpp	/^		double bRect_width;$/;"	m	class:HandGesture
+bRect_width	handGesture.hpp	/^		double bRect_width;$/;"	m	class:HandGesture	access:public
+bool2string	handGesture.cpp	/^string bool2string(bool tf){$/;"	f
+bool2string	handGesture.cpp	/^string bool2string(bool tf){$/;"	f	signature:(bool tf)
+border_thickness	roi.hpp	/^		int border_thickness;$/;"	m	class:My_ROI
+border_thickness	roi.hpp	/^		int border_thickness;$/;"	m	class:My_ROI	access:public
+boundingDim	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	v	typeref:struct:dim
+bw	myImage.hpp	/^		Mat bw;$/;"	m	class:MyImage
+bw	myImage.hpp	/^		Mat bw;$/;"	m	class:MyImage	access:public
+bwList	myImage.hpp	/^		vector<Mat> bwList;$/;"	m	class:MyImage
+bwList	myImage.hpp	/^		vector<Mat> bwList;$/;"	m	class:MyImage	access:public
+cIdx	handGesture.hpp	/^		int cIdx;$/;"	m	class:HandGesture
+cIdx	handGesture.hpp	/^		int cIdx;$/;"	m	class:HandGesture	access:public
+c_lower	main.cpp	/^int c_lower[NSAMPLES][3];$/;"	v
+c_upper	main.cpp	/^int c_upper[NSAMPLES][3];$/;"	v
+calcPoint	kalmanslett.cpp	/^static inline Point calcPoint(Point2f center, double R, double angle)$/;"	f	file:
+calcPoint	kalmanslett.cpp	/^static inline Point calcPoint(Point2f center, double R, double angle)$/;"	f	file:	signature:(Point2f center, double R, double angle)
+cameraSrc	myImage.hpp	/^		int cameraSrc; $/;"	m	class:MyImage
+cameraSrc	myImage.hpp	/^		int cameraSrc; $/;"	m	class:MyImage	access:public
+cap	myImage.hpp	/^		VideoCapture cap;		$/;"	m	class:MyImage
+cap	myImage.hpp	/^		VideoCapture cap;		$/;"	m	class:MyImage	access:public
+changedNumberOfFingers	handGesture.hpp	/^		bool changedNumberOfFingers;$/;"	m	class:HandGesture
+changedNumberOfFingers	handGesture.hpp	/^		bool changedNumberOfFingers;$/;"	m	class:HandGesture	access:public
+checkForOneFinger	handGesture.cpp	/^void HandGesture::checkForOneFinger(MyImage *m){$/;"	f	class:HandGesture
+checkForOneFinger	handGesture.cpp	/^void HandGesture::checkForOneFinger(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+col2origCol	main.cpp	/^void col2origCol(int hsv[3], int bgr[3], Mat src){$/;"	f
+col2origCol	main.cpp	/^void col2origCol(int hsv[3], int bgr[3], Mat src){$/;"	f	signature:(int hsv[3], int bgr[3], Mat src)
+color	roi.hpp	/^		Scalar color;$/;"	m	class:My_ROI
+color	roi.hpp	/^		Scalar color;$/;"	m	class:My_ROI	access:public
+computeFingerNumber	handGesture.cpp	/^void HandGesture::computeFingerNumber(){$/;"	f	class:HandGesture
+computeFingerNumber	handGesture.cpp	/^void HandGesture::computeFingerNumber(){$/;"	f	class:HandGesture	signature:()
+computeFingerNumber	handGesture.hpp	/^		void computeFingerNumber();$/;"	p	class:HandGesture	access:private	signature:()
+computeFingerNumber	slett.cpp	/^int computeFingerNumber(vector<int> fingerNumbers){$/;"	f
+computeFingerNumber	slett.cpp	/^int computeFingerNumber(vector<int> fingerNumbers){$/;"	f	signature:(vector<int> fingerNumbers)
+contours	handGesture.hpp	/^		vector<vector<Point> > contours;$/;"	m	class:HandGesture
+contours	handGesture.hpp	/^		vector<vector<Point> > contours;$/;"	m	class:HandGesture	access:public
+defects	handGesture.hpp	/^		vector<vector<Vec4i> > defects;	$/;"	m	class:HandGesture
+defects	handGesture.hpp	/^		vector<vector<Vec4i> > defects;	$/;"	m	class:HandGesture	access:public
+detectIfHand	handGesture.cpp	/^bool HandGesture::detectIfHand(){$/;"	f	class:HandGesture
+detectIfHand	handGesture.cpp	/^bool HandGesture::detectIfHand(){$/;"	f	class:HandGesture	signature:()
+detectIfHand	handGesture.hpp	/^		bool detectIfHand();$/;"	p	class:HandGesture	access:public	signature:()
+dim	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	s	file:
+dim::h	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:	access:public
+dim::w	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:	access:public
+distanceP2P	handGesture.cpp	/^float HandGesture::distanceP2P(Point a, Point b){$/;"	f	class:HandGesture
+distanceP2P	handGesture.cpp	/^float HandGesture::distanceP2P(Point a, Point b){$/;"	f	class:HandGesture	signature:(Point a, Point b)
+distanceP2P	handGesture.hpp	/^		float distanceP2P(Point a,Point b);$/;"	p	class:HandGesture	access:private	signature:(Point a,Point b)
+drawCross	kalmanslett.cpp	75;"	d	file:
+drawFingerTips	handGesture.cpp	/^void HandGesture::drawFingerTips(MyImage *m){$/;"	f	class:HandGesture
+drawFingerTips	handGesture.cpp	/^void HandGesture::drawFingerTips(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+drawNewNumber	handGesture.cpp	/^void HandGesture::drawNewNumber(MyImage *m){$/;"	f	class:HandGesture
+drawNewNumber	handGesture.cpp	/^void HandGesture::drawNewNumber(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+drawNewNumber	handGesture.hpp	/^		void drawNewNumber(MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(MyImage *m)
+draw_rectangle	roi.cpp	/^void My_ROI::draw_rectangle(Mat src){$/;"	f	class:My_ROI
+draw_rectangle	roi.cpp	/^void My_ROI::draw_rectangle(Mat src){$/;"	f	class:My_ROI	signature:(Mat src)
+draw_rectangle	roi.hpp	/^		void draw_rectangle(Mat src);$/;"	p	class:My_ROI	access:public	signature:(Mat src)
+edges	main.cpp	/^Mat edges;$/;"	v
+eleminateDefects	handGesture.cpp	/^void HandGesture::eleminateDefects(MyImage *m){$/;"	f	class:HandGesture
+eleminateDefects	handGesture.cpp	/^void HandGesture::eleminateDefects(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+eleminateDefects	handGesture.hpp	/^		void eleminateDefects(MyImage *m);$/;"	p	class:HandGesture	access:public	signature:(MyImage *m)
+findBiggestContour	main.cpp	/^int findBiggestContour(vector<vector<Point> > contours){$/;"	f
+findBiggestContour	main.cpp	/^int findBiggestContour(vector<vector<Point> > contours){$/;"	f	signature:(vector<vector<Point> > contours)
+fingerNumbers	handGesture.hpp	/^		vector<int> fingerNumbers;$/;"	m	class:HandGesture
+fingerNumbers	handGesture.hpp	/^		vector<int> fingerNumbers;$/;"	m	class:HandGesture	access:private
+fingerTips	handGesture.hpp	/^		vector <Point> fingerTips;$/;"	m	class:HandGesture
+fingerTips	handGesture.hpp	/^		vector <Point> fingerTips;$/;"	m	class:HandGesture	access:public
+fontFace	main.cpp	/^int fontFace = FONT_HERSHEY_PLAIN;$/;"	v
+frameNumber	handGesture.hpp	/^		int frameNumber;$/;"	m	class:HandGesture
+frameNumber	handGesture.hpp	/^		int frameNumber;$/;"	m	class:HandGesture	access:public
+getAngle	handGesture.cpp	/^float HandGesture::getAngle(Point s, Point f, Point e){$/;"	f	class:HandGesture
+getAngle	handGesture.cpp	/^float HandGesture::getAngle(Point s, Point f, Point e){$/;"	f	class:HandGesture	signature:(Point s, Point f, Point e)
+getAngle	handGesture.hpp	/^		float getAngle(Point s,Point f,Point e);	$/;"	p	class:HandGesture	access:private	signature:(Point s,Point f,Point e)
+getAvgColor	main.cpp	/^void getAvgColor(MyImage *m,My_ROI roi,int avg[3]){$/;"	f
+getAvgColor	main.cpp	/^void getAvgColor(MyImage *m,My_ROI roi,int avg[3]){$/;"	f	signature:(MyImage *m,My_ROI roi,int avg[3])
+getFingerNumber	handGesture.cpp	/^void HandGesture::getFingerNumber(MyImage *m){$/;"	f	class:HandGesture
+getFingerNumber	handGesture.cpp	/^void HandGesture::getFingerNumber(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+getFingerNumber	handGesture.hpp	/^		void getFingerNumber(MyImage *m);$/;"	p	class:HandGesture	access:public	signature:(MyImage *m)
+getFingerTips	handGesture.cpp	/^void HandGesture::getFingerTips(MyImage *m){$/;"	f	class:HandGesture
+getFingerTips	handGesture.cpp	/^void HandGesture::getFingerTips(MyImage *m){$/;"	f	class:HandGesture	signature:(MyImage *m)
+getMedian	main.cpp	/^int getMedian(vector<int> val){$/;"	f
+getMedian	main.cpp	/^int getMedian(vector<int> val){$/;"	f	signature:(vector<int> val)
+h	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:
+h	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:	access:public
+help	kalmanslett.cpp	/^static void help()$/;"	f	file:
+help	kalmanslett.cpp	/^static void help()$/;"	f	file:	signature:()
+hullI	handGesture.hpp	/^		vector<vector<int> >hullI;$/;"	m	class:HandGesture
+hullI	handGesture.hpp	/^		vector<vector<int> >hullI;$/;"	m	class:HandGesture	access:public
+hullP	handGesture.hpp	/^		vector<vector<Point> >hullP;$/;"	m	class:HandGesture
+hullP	handGesture.hpp	/^		vector<vector<Point> >hullP;$/;"	m	class:HandGesture	access:public
+iSinceKFInit	main.cpp	/^int iSinceKFInit;$/;"	v
+init	main.cpp	/^void init(MyImage *m){$/;"	f
+init	main.cpp	/^void init(MyImage *m){$/;"	f	signature:(MyImage *m)
+initTrackbars	main.cpp	/^void initTrackbars(){$/;"	f
+initTrackbars	main.cpp	/^void initTrackbars(){$/;"	f	signature:()
+initVectors	handGesture.cpp	/^void HandGesture::initVectors(){$/;"	f	class:HandGesture
+initVectors	handGesture.cpp	/^void HandGesture::initVectors(){$/;"	f	class:HandGesture	signature:()
+initVectors	handGesture.hpp	/^		void initVectors();$/;"	p	class:HandGesture	access:public	signature:()
+initWebCamera	myImage.hpp	/^		void initWebCamera(int i);$/;"	p	class:MyImage	access:public	signature:(int i)
+initWindows	main.cpp	/^void initWindows(MyImage m){$/;"	f
+initWindows	main.cpp	/^void initWindows(MyImage m){$/;"	f	signature:(MyImage m)
+intToString	handGesture.cpp	/^string HandGesture::intToString(int number){$/;"	f	class:HandGesture
+intToString	handGesture.cpp	/^string HandGesture::intToString(int number){$/;"	f	class:HandGesture	signature:(int number)
+intToString	handGesture.hpp	/^		string intToString(int number);$/;"	p	class:HandGesture	access:private	signature:(int number)
+intToString	main.cpp	/^string intToString(int number){$/;"	f
+intToString	main.cpp	/^string intToString(int number){$/;"	f	signature:(int number)
+isHand	handGesture.hpp	/^		bool isHand;$/;"	m	class:HandGesture
+isHand	handGesture.hpp	/^		bool isHand;$/;"	m	class:HandGesture	access:public
+kf	main.cpp	/^vector <KalmanFilter> kf;$/;"	v
+lower_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI
+lower_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI	access:public
+m	handGesture.hpp	/^		MyImage m;$/;"	m	class:HandGesture
+m	handGesture.hpp	/^		MyImage m;$/;"	m	class:HandGesture	access:public
+main	kalmanslett.cpp	/^int main(int, char**)$/;"	f
+main	kalmanslett.cpp	/^int main(int, char**)$/;"	f	signature:(int, char**)
+main	main.cpp	/^int main(){$/;"	f
+main	main.cpp	/^int main(){$/;"	f	signature:()
+main	slett.cpp	/^int main(){$/;"	f
+main	slett.cpp	/^int main(){$/;"	f	signature:()
+makeContours	main.cpp	/^void makeContours(MyImage *m, HandGesture* hg){$/;"	f
+makeContours	main.cpp	/^void makeContours(MyImage *m, HandGesture* hg){$/;"	f	signature:(MyImage *m, HandGesture* hg)
+measurement	main.cpp	/^vector <Mat_<float> > measurement;$/;"	v
+mostFrequentFingerNumber	handGesture.hpp	/^		int mostFrequentFingerNumber;$/;"	m	class:HandGesture
+mostFrequentFingerNumber	handGesture.hpp	/^		int mostFrequentFingerNumber;$/;"	m	class:HandGesture	access:public
+myDrawContours	main.cpp	/^void myDrawContours(MyImage *m,HandGesture *hg){$/;"	f
+myDrawContours	main.cpp	/^void myDrawContours(MyImage *m,HandGesture *hg){$/;"	f	signature:(MyImage *m,HandGesture *hg)
+normalizeColors	main.cpp	/^void normalizeColors(MyImage * myImage){$/;"	f
+normalizeColors	main.cpp	/^void normalizeColors(MyImage * myImage){$/;"	f	signature:(MyImage * myImage)
+nrNoFinger	handGesture.hpp	/^		int nrNoFinger;$/;"	m	class:HandGesture
+nrNoFinger	handGesture.hpp	/^		int nrNoFinger;$/;"	m	class:HandGesture	access:private
+nrOfDefects	handGesture.hpp	/^		int nrOfDefects;$/;"	m	class:HandGesture
+nrOfDefects	handGesture.hpp	/^		int nrOfDefects;$/;"	m	class:HandGesture	access:public
+nrOfDefects	main.cpp	/^int nrOfDefects;$/;"	v
+numberColor	handGesture.hpp	/^		Scalar numberColor;$/;"	m	class:HandGesture
+numberColor	handGesture.hpp	/^		Scalar numberColor;$/;"	m	class:HandGesture	access:private
+numbers2Display	handGesture.hpp	/^		vector<int> numbers2Display;$/;"	m	class:HandGesture
+numbers2Display	handGesture.hpp	/^		vector<int> numbers2Display;$/;"	m	class:HandGesture	access:private
+prevNrFingerTips	handGesture.hpp	/^		int prevNrFingerTips;$/;"	m	class:HandGesture
+prevNrFingerTips	handGesture.hpp	/^		int prevNrFingerTips;$/;"	m	class:HandGesture	access:public
+printGestureInfo	handGesture.cpp	/^void HandGesture::printGestureInfo(Mat src){$/;"	f	class:HandGesture
+printGestureInfo	handGesture.cpp	/^void HandGesture::printGestureInfo(Mat src){$/;"	f	class:HandGesture	signature:(Mat src)
+printGestureInfo	handGesture.hpp	/^		void printGestureInfo(Mat src);$/;"	p	class:HandGesture	access:public	signature:(Mat src)
+printText	main.cpp	/^void printText(Mat src, string text){$/;"	f
+printText	main.cpp	/^void printText(Mat src, string text){$/;"	f	signature:(Mat src, string text)
+produceBinaries	main.cpp	/^void produceBinaries(MyImage *m){	$/;"	f
+produceBinaries	main.cpp	/^void produceBinaries(MyImage *m){	$/;"	f	signature:(MyImage *m)
+rect	handGesture.hpp	/^		Rect rect;$/;"	m	class:HandGesture
+rect	handGesture.hpp	/^		Rect rect;$/;"	m	class:HandGesture	access:public
+removeRedundantEndPoints	handGesture.cpp	/^void removeRedundantEndPoints(vector<Vec4i> newDefects,MyImage *m){$/;"	f
+removeRedundantEndPoints	handGesture.cpp	/^void removeRedundantEndPoints(vector<Vec4i> newDefects,MyImage *m){$/;"	f	signature:(vector<Vec4i> newDefects,MyImage *m)
+removeRedundantFingerTips	handGesture.cpp	/^void HandGesture::removeRedundantFingerTips(){$/;"	f	class:HandGesture
+removeRedundantFingerTips	handGesture.cpp	/^void HandGesture::removeRedundantFingerTips(){$/;"	f	class:HandGesture	signature:()
+removeRedundantFingerTips	handGesture.hpp	/^		void removeRedundantFingerTips();$/;"	p	class:HandGesture	access:private	signature:()
+removeRedundantFingerTips	handGesture.hpp	/^		void removeRedundantFingerTips(vector<Vec4i> newDefects,MyImage *m);$/;"	p	class:HandGesture	access:private	signature:(vector<Vec4i> newDefects,MyImage *m)
+roi	main.cpp	/^vector <My_ROI> roi;$/;"	v
+roi1	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi2	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi3	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi4	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi5	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi6	main.cpp	/^My_ROI roi1, roi2,roi3,roi4,roi5,roi6;$/;"	v
+roi_ptr	roi.hpp	/^		Mat roi_ptr;$/;"	m	class:My_ROI
+roi_ptr	roi.hpp	/^		Mat roi_ptr;$/;"	m	class:My_ROI	access:public
+showWindows	main.cpp	/^void showWindows(MyImage m){$/;"	f
+showWindows	main.cpp	/^void showWindows(MyImage m){$/;"	f	signature:(MyImage m)
+square_len	main.cpp	/^int square_len;$/;"	v
+src	myImage.hpp	/^		Mat src;$/;"	m	class:MyImage
+src	myImage.hpp	/^		Mat src;$/;"	m	class:MyImage	access:public
+srcLR	myImage.hpp	/^		Mat srcLR;$/;"	m	class:MyImage
+srcLR	myImage.hpp	/^		Mat srcLR;$/;"	m	class:MyImage	access:public
+upper_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI
+upper_corner	roi.hpp	/^		Point upper_corner, lower_corner;$/;"	m	class:My_ROI	access:public
+w	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:
+w	main.cpp	/^struct dim{int w; int h;}boundingDim;$/;"	m	struct:dim	file:	access:public
+waitForPalmCover	main.cpp	/^void waitForPalmCover(MyImage* m){$/;"	f
+waitForPalmCover	main.cpp	/^void waitForPalmCover(MyImage* m){$/;"	f	signature:(MyImage* m)
