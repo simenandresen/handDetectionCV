@@ -5,3 +5,4 @@
 
 all:
 	g++ `pkg-config --cflags --libs opencv` main.cpp myImage.cpp handGesture.cpp roi.cpp  -o opencv
+
