@@ -1,4 +1,5 @@
 Hand Detection using Color Recognition
+=================================
 
 Software to detect hand from videostream (webcam) and detect fingertips, number of fingers etc.
 
