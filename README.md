@@ -5,7 +5,7 @@ Software to detect hand from videostream (webcam) and detect fingertips, number 
 
 The software is compiled using the Makefile. Simply run 
 
-  $make
+	$make
 
 In the terminal. In the future I will add instructions on how to compile with Visual Studio, as there has been alot of 
 requests for this
