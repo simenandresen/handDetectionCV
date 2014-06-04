@@ -13,6 +13,10 @@ The software is compiled using the Makefile. Simply run
 in the terminal if you use Linux Or Mac, or simply run the command:
 
 	g++ -o opencv main.cpp myImage.cpp handGesture.cpp roi.cpp  `pkg-config --cflags --libs opencv` 
-
-In the future I will add instructions on how to compile with Visual Studio, as there has been alot of 
-requests for this
+	
+	----------------------------------------
+	
+	VS 2013 for x64bit Architectures. OpenCV 2.4.9 used in this vesrion.
+	you should change the "OpenCV_Debug2.4.9" and "OpenCV_Release2.4.9" Property Sheets to ensure that it have the correct path for OpenCV 2.4.9 , and make sure that you add the OpenCV to the environment variables correctly.
+	you could change the Architecture for x86 from the Property Sheets.
+	
