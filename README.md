@@ -19,7 +19,7 @@ in the terminal if you use Linux Or Mac, or simply run the command:
 
 ==================================
 
-the VS2013 contains the x64bit Architecture version and.
+the VS2013 contains the x64bit Architecture version.
 OpenCV 2.4.9 used in this vesrion.
 you should change the "OpenCV_Debug2.4.9" and "OpenCV_Release2.4.9" Property Sheets 
 to ensure that it have the correct path for OpenCV 2.4.9 , 
